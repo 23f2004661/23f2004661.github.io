@@ -10,18 +10,14 @@ latest_posts:
   enabled: false
 ---
 
-<!-- WRITE HERE: about page content -->
-```md
-## About me
-
-Hi, I’m Tarang Jhaveri. This is my site where i will post about my academic journey, innovations and also share my lernings with you.
+Hi, I’m Tarang Jhaveri, a fourth-year Data Science student at IIT Madras. This site is where I document my academic journey, explore ideas and innovations that interest me, and share what I’m learning along the way.
 
 ## What I write about
 
-I will usually write about fundamentals of Linear Algebra, Probability and Machine learing. So that when we are trying to understand an Algorithm which actally know what is happening in it.
+I write about the foundations behind data science and machine learning, especially linear algebra and probability. My aim is to look beyond how to use an algorithm and understand the ideas that make it work—so we can better see what is happening under the hood.
 
 ## Background
 
-I am a 4th year student at IIT Madras
+I’m currently in my fourth year of studying Data Science at IIT Madras. This blog is a space to reflect on that learning journey and make useful ideas clearer by writing about them.
 
-```
+Outside academics, I’m a big football fan.

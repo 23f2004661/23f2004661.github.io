@@ -23,6 +23,11 @@
 @use "teachings";
 @use "typograms";
 
+.post-header .post-title {
+  font-family: Georgia, "Times New Roman", serif;
+  font-weight: 700;
+}
+
 .post-header,
 #table-of-contents,
 #markdown-content {

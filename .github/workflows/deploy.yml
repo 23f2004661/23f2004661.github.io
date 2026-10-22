@@ -23,12 +23,13 @@ jobs:
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: "3.3.5"
+          ruby-version: "3.3"
+          bundler: "4.0.6"
           bundler-cache: true
       - name: Configure Pages
         uses: actions/configure-pages@v5
       - name: Build site
-        run: bundle exec jekyll build
+        run: bundle exec ruby -S jekyll build
         env:
           JEKYLL_ENV: production
       - name: Upload Pages artifact

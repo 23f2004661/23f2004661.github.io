@@ -1,0 +1,7 @@
+<iframe
+  class="interactive-widget"
+  src="{{ include.src | relative_url | escape }}"
+  title="{{ include.title | default: 'Interactive visualization' | escape }}"
+  loading="lazy"
+  sandbox="allow-scripts"
+></iframe>

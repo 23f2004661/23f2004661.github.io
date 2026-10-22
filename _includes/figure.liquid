@@ -1,0 +1,11 @@
+{% assign figure_alt = include.alt | default: include.caption | default: "" %}
+<figure>
+  <img
+    src="{{ include.path | relative_url | escape }}"
+    alt="{{ figure_alt | escape }}"
+    loading="{{ include.loading | default: 'lazy' | escape }}"
+  >
+  {% if include.caption %}
+    <figcaption>{{ include.caption | escape }}</figcaption>
+  {% endif %}
+</figure>
